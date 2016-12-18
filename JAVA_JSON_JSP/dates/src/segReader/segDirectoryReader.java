@@ -510,6 +510,11 @@ public class segDirectoryReader {
           
       }
       
+	  public void NewFeatureFunction1()
+	  {
+		   
+	
+	  }
    
 }
  
