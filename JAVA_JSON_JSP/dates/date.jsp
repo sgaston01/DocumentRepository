@@ -24,7 +24,9 @@
         <script  src="Ajax.js"></script>
       
        <script  src="json.js"></script>
-        
+      
+       <script  src="jQuery.js"></script>
+      	  
 </head>
 
 <%@ page session="false"%>
@@ -61,7 +63,8 @@
         
 <%    
 
-   readerx.openDirectory("C:\\SEGFiles\\"); 
+   readerx.openDirectory("C:\\SEGFilesTest\\"); 
+   //readerx.openDirectory("C:\\SEGFiles\\"); 
    readerx.ReadAllFiles();
    String [] arrayTest = readerx.getCategories();
 %>
