@@ -512,9 +512,17 @@ public class segDirectoryReader {
       
 	  public void NewFeatureFunction1()
 	  {
-		   
+            //adding stubs for new feature 1		   
 	
 	  }
+
+
+	  public void NewFeatureFunction2()
+	  {
+              //adding stubs for new feature 2		   
+	
+	  }
+
    
 }
  
